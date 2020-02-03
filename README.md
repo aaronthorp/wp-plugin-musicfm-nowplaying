@@ -12,7 +12,7 @@ The plugin will update all div tags with the below `mfm_now_playing_` prefix for
 <div class="mfm_now_playing_title">Live!</div>
 ```
 
-[images/playingimg1.png]
+[https://github.com/aaronthorp/wp-plugin-musicfm-nowplaying/raw/master/images/playingimg1.png]
 
 Once the plugin is activated, redirect the track listing update to the `/api/mfm/nowplaying` endpoint from automation software with track information, plugin will update track information as it comes available.
 
