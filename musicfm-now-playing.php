@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: MusicFM Now Playing
- * Plugin URI: https://github.com/aaronthorp/musicfm-now-playing
+ * Plugin URI: https://github.com/aaronthorp/wp-plugin-musicfm-nowplaying
  * Description: This plugin provides Now Playing information for your WordPress Site
  * Version: 1.0.0
  * Author: Aaron Thorp
@@ -22,7 +22,7 @@ define( 'MFM_PLUGIN_PATH', __FILE__ );
 register_activation_hook( __FILE__, 'mfm_create_db' );
 
 function mfm_create_db() {
-    // Create DB Here
+
     global $wpdb;
     $charset_collate = $wpdb->get_charset_collate();
     $table_name = $wpdb->prefix . 'mfm_now_playing';
