@@ -30,7 +30,8 @@ The database will store the following information for the track information:
 
 ## Admin Panel
 
-The Admin panel will show the current playing song logged from the Automation as well as a playout history table.
+The Admin panel menu option will show the current playing song logged from the Automation updated as information
+is received as well as a playout history table of the recent songs logged.
 
 ![Admin Panel](https://github.com/aaronthorp/wp-plugin-musicfm-nowplaying/raw/master/images/mfmadmin.png)
 
