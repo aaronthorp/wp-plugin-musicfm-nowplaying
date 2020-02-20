@@ -1,7 +1,6 @@
-# MUSICFM NOW PLAYING PLUGIN - v1.0.1
+# MUSICFM NOW PLAYING PLUGIN - v1.0.2
 
 > This plugin provides now playing information for the MusicFM website.
-
 
 ## Usage Example
 
@@ -13,6 +12,12 @@ The plugin will update any tags with the below `mfm_now_playing_` prefix and `ar
 <div class="mfm_now_playing_type">Music</div>
 ```
 
+or 
+
+```
+<span class="mfm_now_playing_artist">MusicFM</span> - <span class="mfm_now_playing_title">Live!</span>
+```
+
 ![Usage Example](https://github.com/aaronthorp/wp-plugin-musicfm-nowplaying/raw/master/images/playingimg1.png)
 
 Once the plugin is activated, redirect the track listing update to the `/api/mfm/nowplaying` endpoint from automation software with track information, plugin will update track information as it comes available.
@@ -22,6 +27,12 @@ The database will store the following information for the track information:
  - Title
  - Track Type (e.g. Music/Live Show/Station ID etc.)
  - Timestamp
+
+## Admin Panel
+
+The Admin panel will show the current playing song logged from the Automation as well as a playout history table.
+
+![Admin Panel](https://github.com/aaronthorp/wp-plugin-musicfm-nowplaying/raw/master/images/mfmadmin.png)
 
 ## Author :pencil:
 
