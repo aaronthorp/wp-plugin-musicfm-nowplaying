@@ -3,7 +3,7 @@
  * Plugin Name: MusicFM Now Playing
  * Plugin URI: https://github.com/aaronthorp/wp-plugin-musicfm-nowplaying
  * Description: This plugin provides Now Playing information for your WordPress Site
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Aaron Thorp
  * Author URI: https://aaronthorp.com
  * License: GPL2
@@ -54,8 +54,9 @@ function mfm_now_playing_updater(){
         jQuery.ajax({
         url: <?php echo wp_json_encode( esc_url_raw( rest_url( 'mfm/nowplaying' ) ) ); ?>
     }).done(function( data ) {
-        jQuery("div.mfm_now_playing_artist").text( data.artist );
-        jQuery("div.mfm_now_playing_title").text( data.title );
+        jQuery(".mfm_now_playing_artist").text( data.artist );
+        jQuery(".mfm_now_playing_title").text( data.title );
+        jQuery(".mfm_now_playing_type").text( data.type );
     });
     }
     mfmUpdatePlayer();

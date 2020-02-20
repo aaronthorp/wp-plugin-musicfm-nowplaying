@@ -1,4 +1,4 @@
-# MUSICFM NOW PLAYING PLUGIN
+# MUSICFM NOW PLAYING PLUGIN - v1.0.1
 
 > This plugin provides now playing information for the MusicFM website.
 
@@ -10,6 +10,7 @@ The plugin will update all div tags with the below `mfm_now_playing_` prefix for
 ```
 <div class="mfm_now_playing_artist">MusicFM</div>
 <div class="mfm_now_playing_title">Live!</div>
+<div class="mfm_now_playing_type">Music</div>
 ```
 
 ![Usage Example](https://github.com/aaronthorp/wp-plugin-musicfm-nowplaying/raw/master/images/playingimg1.png)
