@@ -5,7 +5,7 @@
 
 ## Usage Example
 
-The plugin will update all div tags with the below `mfm_now_playing_` prefix for `artist` and `title`
+The plugin will update any tags with the below `mfm_now_playing_` prefix and `artist`, `title` and `type` classes.
 
 ```
 <div class="mfm_now_playing_artist">MusicFM</div>
